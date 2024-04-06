@@ -46,9 +46,9 @@ class PlanetAdapter: BaseAdapter {
             viewHolder = newConvertView.getTag() as ViewHolder;
         }
 
-        viewHolder.tvPlanetName.setText(planets[position].getName());
-        viewHolder.tvPlanetMoons.setText(planets[position].getMoons().toString() + " Moons");
-        viewHolder.ivPlanetImage.setBackgroundResource(context.getResources().getIdentifier(planets[position].getImage(), "drawable", context.getPackageName()));
+        viewHolder.tvPlanetName.setText(planets[position].name);
+        viewHolder.tvPlanetMoons.setText(planets[position].moons.toString() + " Moons");
+        viewHolder.ivPlanetImage.setBackgroundResource(context.getResources().getIdentifier(planets[position].image, "drawable", context.getPackageName()));
 
         return newConvertView;
     }

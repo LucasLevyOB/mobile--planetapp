@@ -10,28 +10,4 @@ class Planet {
         this.moons = moons;
         this.image = image;
     }
-
-    fun getName(): String {
-        return name;
-    }
-
-    fun setName(name: String) {
-        this.name = name;
-    }
-
-    fun getMoons(): Int {
-        return moons;
-    }
-
-    fun setMoons(moons: Int) {
-        this.moons = moons;
-    }
-
-    fun getImage(): String {
-        return image;
-    }
-
-    fun setImage(image: String) {
-        this.image = image;
-    }
 }
