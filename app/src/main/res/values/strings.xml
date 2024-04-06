@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PlanetAPP</string>
+    <string name="title_activity_planet_item">planet_item</string>
+</resources>
